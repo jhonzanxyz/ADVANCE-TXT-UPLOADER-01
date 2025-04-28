@@ -12,7 +12,7 @@
 ## 🔥 Commands
 
 - **`/start`**: ⚡ check bot is alive.
-- **`/chahal`**:  📁 upload txt file.
+- **`/drm`**:  📁 upload txt file.
 - **`/stop`**: 🛑 stop ongoing process.
 - **`/restart`**: 🔮 restart the bot.
 - **`/cookies`**: 🍪 upload cookies file.
