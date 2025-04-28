@@ -155,7 +155,7 @@ random_image_url = random.choice(image_urls)
 caption = (
         "**ʜᴇʟʟᴏ👋**\n\n"
         "➠ **ɪ ᴀᴍ ᴛxᴛ ᴛᴏ ᴠɪᴅᴇᴏ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ.**\n"
-        "➠ **ғᴏʀ ᴜsᴇ ᴍᴇ sᴇɴᴅ /chahal.\n"
+        "➠ **ғᴏʀ ᴜsᴇ ᴍᴇ sᴇɴᴅ /drm.\n"
         "➠ **ғᴏʀ ɢᴜɪᴅᴇ sᴇɴᴅ /help."
 )
     
@@ -434,7 +434,7 @@ async def list_users(client: Client, msg: Message):
 async def help_command(client: Client, msg: Message):
     help_text = (
         "`/start` - Start the bot⚡\n\n"
-        "`/chahal` - Download and upload files (sudo)🎬\n\n"
+        "`/drm` - Download and upload files (sudo)🎬\n\n"
         "`/restart` - Restart the bot🔮\n\n" 
         "`/stop` - Stop ongoing process🛑\n\n"
         "`/cookies` - Upload cookies file🍪\n\n"
@@ -535,9 +535,9 @@ async def upload(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message with link
-    credit = "️[🎭ʙᴀᴅꜰᴇʟʟᴀ🎭](https://t.me/teamdevil_bot)"
+    credit = "️[🎭Team Devil🎭](https://t.me/teamdevil_bot)"
     if raw_text3 == '1':
-        CR = '[🎭ʙᴀᴅꜰᴇʟʟᴀ🎭](https://t.me/teamdevil_bot)'
+        CR = '[🎭Team Devil🎭](https://t.me/teamdevil_bot)'
     elif raw_text3:
         try:
             text, link = raw_text3.split(',')
