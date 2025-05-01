@@ -1,5 +1,5 @@
-# Don't Remove Credit Tg - @teamdevilbotz
-# Ask Doubt on telegram @teamdevilbotz
+# Don't Remove Credit Tg - @MAGTORN
+# Ask Doubt on telegram @MAGTORN
 import signal
 import os
 import re
@@ -53,7 +53,7 @@ ibb="""**🚫𝗬𝗼𝘂 𝗮𝗿𝗲 𝗻𝗼𝘁 𝗮𝘂𝘁𝗵𝗼𝗿𝗶
 ➡️ ₹𝟭𝟱𝟬 /  𝟭𝟱 𝗱𝗮𝘆𝘀
 ➡️ ₹𝟮𝟲𝟵 /   𝟯𝟬 𝗱𝗮𝘆𝘀
 
-🍁𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗛𝗲𝗿𝗲 𝗧𝗼 𝗚𝗲𝘁 𝗔𝗰𝗰𝗲𝘀𝘀 @teamdevil_bot
+🍁𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗛𝗲𝗿𝗲 𝗧𝗼 𝗚𝗲𝘁 𝗔𝗰𝗰𝗲𝘀𝘀 @CYPHERX9
 **"""
 async def show_random_emojis(message):
     emojis = ['🎊', '🔮', '😎', '⚡️', '🚀', '✨', '💥', '🎉', '🥂', '🍾', '🦠', '🤖', '❤️‍🔥', '🕊️', '💃', '🥳','🐅','🦁']
@@ -118,11 +118,11 @@ async def sudo_command(bot: Client, message: Message):
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url=f"https://t.me/teamdevil_bot") ],
+                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url=f"https://t.me/Cypherx90") ],
                     [
-                    InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔" ,url="https://t.me/teamdevilbotz") ],
+                    InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔" ,url="https://t.me/magtorn") ],
                     [
-                    InlineKeyboardButton("🦋ғᴏʟʟᴏᴡ ᴜs🦋" ,url="https://t.me/teamdevilbotz")                              
+                    InlineKeyboardButton("🦋ғᴏʟʟᴏᴡ ᴜs🦋" ,url="https://t.me/MAGTORN_BOT")                              
                 ],           
             ]
       )
@@ -322,7 +322,7 @@ async def edit_txt(client, message: Message):
     try:
         await message.reply_document(
             document=final_file_path,
-            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤ @teamdevil_bot🐦‍🔥"
+            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤ @MAGTORN🐦‍🔥"
         )
     except Exception as e:
         await message.reply_text(f"🚨 **Error**: Unable to send the file.\n\nDetails: {e}")
@@ -412,7 +412,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
         file_name = save_to_file(videos, title)
         await message.reply_document(
             document=file_name, 
-            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ @teamdevil_bot🐦‍🔥"
+            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ @MAGTORN🐦‍🔥"
         )
         os.remove(file_name)
     else:
@@ -535,9 +535,9 @@ async def upload(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message with link
-    credit = "️[🎭Team Devil🎭](https://t.me/teamdevil_bot)"
+    credit = "️[🎭​🇲​​🇦​​🇬​​🇹​​🇴​​🇷​​🇳​🎭](https://t.me/MAGTORN)"
     if raw_text3 == '1':
-        CR = '[🎭Team Devil🎭](https://t.me/teamdevil_bot)'
+        CR = '[🎭​🇲​​🇦​​🇬​​🇹​​🇴​​🇷​​🇳​🎭](https://t.me/MAGTORN)'
     elif raw_text3:
         try:
             text, link = raw_text3.split(',')
@@ -798,7 +798,7 @@ async def upload(bot: Client, m: Message):
                 else:
                     emoji_message = await show_random_emojis(message)
                     remaining_links = len(links) - count
-                    Show = f"**🍁 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 🍁**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n🗂️ɪɴᴅᴇx » {str(count)}/{len(links)}\n\n🌐ʀᴇᴍᴀɪɴɪɴɢ ᴜʀʟ » {remaining_links}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🔗ᴜʀʟ » ** `{url}`\n\n🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤  @teamdevil_bot🐦‍🔥\n\n "
+                    Show = f"**🍁 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 🍁**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n🗂️ɪɴᴅᴇx » {str(count)}/{len(links)}\n\n🌐ʀᴇᴍᴀɪɴɪɴɢ ᴜʀʟ » {remaining_links}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🔗ᴜʀʟ » ** `{url}`\n\n🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤  @MAGTORN🐦‍🔥\n\n "
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
