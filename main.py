@@ -620,8 +620,8 @@ async def upload(bot: Client, m: Message):
              #url = f"https://player.muftukmall.site/?id={id}"
             elif '/master.mpd' in url:
              id =  url.split("/")[-2]
-             #url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={raw_text4}"
-             url = f"https://madxabhi-pw.onrender.com/{id}/master.m3u8?token={raw_text4}"
+             url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={https://d1d34p8vz63oiq.cloudfront.net/a32f0885-cf0b-41d4-8b0c-8dd04f7e6ff2/master.mpd&parentId=676ad9449870d50ffe5fec56&childId=681251d561c8873cc0bdc7d5}?token={eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDY3NzI3MzMuNDY0LCJkYXRhIjp7Il9pZCI6IjYwOWJmNWY4M2Y3ZDk4MDAxOGQ5MWFmOSIsInVzZXJuYW1lIjoiNjIwMDY1ODE2MSIsImZpcnN0TmFtZSI6IlBpeXVzaGJoYXJ0aSIsImxhc3ROYW1lIjoiIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsInR5cGUiOiJVU0VSIn0sImlhdCI6MTc0NjE2NzkzM30.7zDtk5FsptPWjDhn0tAu44RWU47VYT8cg3souAi852c}"
+             #url = f"https://madxabhi-pw.onrender.com/{id}/master.m3u8?token={raw_text4}"
             #elif '/master.mpd' in url:
              #id =  url.split("/")[-2]
              #url = f"https://dl.alphacbse.site/download/{id}/master.m3u8"
